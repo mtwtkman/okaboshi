@@ -1,0 +1,25 @@
+{
+  "name": "line bot trial",
+  "description": "okaboshi",
+  "repository": "https://github.com/mtwtkman/okaboshi",
+  "keywords": ["line", "bot", "okaboshi"],
+  "env": {
+    "CHANNEL_ID": {
+      "description": "channel ID",
+      "required": true
+    },
+    "CHANNEL_SECRET": {
+      "description": "channel secret",
+      "required": true
+    },
+    {
+      "MID": {
+        "description": "mid",
+        "required": true
+      }
+    }
+  },
+  "addons": [
+    "fixie:tricycle"
+  ]
+}
