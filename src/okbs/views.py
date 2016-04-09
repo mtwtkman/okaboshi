@@ -72,4 +72,4 @@ class OKBSView(View):
 
     def post(self, request, *args, **kwargs):
         traverse(json.loads(request.body.decode())['result'])
-        return JsonResponse({'status': 'post error'})
+        return JsonResponse({'status': 'ok'})
