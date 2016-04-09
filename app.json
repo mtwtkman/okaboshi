@@ -12,14 +12,17 @@
       "description": "channel secret",
       "required": true
     },
-    {
-      "MID": {
-        "description": "mid",
-        "required": true
-      }
+    "MID": {
+      "description": "mid",
+      "required": true
     }
   },
   "addons": [
     "fixie:tricycle"
+  ],
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python"
+    }
   ]
 }
